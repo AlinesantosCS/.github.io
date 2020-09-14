@@ -1,0 +1,109 @@
+*, *::before, *::after { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+html{
+    font-size: 18px;
+}
+
+body{
+    font-style: Verdana;
+}
+
+h1{
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+}
+
+h2{
+   padding-bottom: 1em; 
+   padding-left: 1em;
+}
+
+h1,h2{
+    color: #6c6c6c;
+}
+
+main{
+    overflow: hidden;
+}
+
+ul li{
+    list-style: none;
+    padding-bottom: 0.6em;
+   
+}
+
+p,ul li,h3{
+    color: #747474;
+}
+
+p{
+    padding-bottom: 2em;
+}
+
+
+.flutuar-esquerda{
+    float: left;
+    width: 20%;
+}
+
+.flutuar-direita{
+    width: 80%;
+    float: right;
+}
+
+.img-direita{
+    float: right;
+    padding-right: 10em;
+}
+
+.borda{
+    padding-left: 3em;
+    border-left: #bcbcbc solid 1px;
+    margin-top: 2em;   
+}
+
+.menu{
+    padding-left: 3em;
+    margin-top: 2em;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: #d8d8d8;
+    margin-top: 3em;
+    border-top: #bcbcbc solid 1px;
+    padding-bottom: 0.5em;
+}
+
+figure img{
+    width: 300px;
+    padding-left: 2em;
+    padding-top: 0.5em;
+}
+
+ .posicionar {
+    float: right; 
+   
+    
+}
+
+div a {
+    color: whitesmoke;
+    font-weight: bolder;
+    padding-right: 2em;    
+}
+
+.contato{
+    font-size: 1.2em;
+    display: block;
+    padding-top: 1.5em;
+}
+
